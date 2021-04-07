@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <div>
       <NavBar />
-      <Carousel style={{ marginTop: "10px" }}>
+      <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100"

@@ -19,7 +19,7 @@ export default function NavBar() {
         variant="tabs"
         defaultActiveKey="/"
         style={{ background: "pink" }}>
-        <Navbar.Brand href="/" style={{ marginLeft: "10px" }}>
+        <Navbar.Brand href="/" style={{ marginLeft: "20px" }}>
           {" "}
           Cocktails Time &#127864;
         </Navbar.Brand>
