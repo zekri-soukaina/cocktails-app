@@ -11,7 +11,7 @@ export default function Alcoholic() {
       const response = await axios.get(
         `https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Alcoholic`
       );
-      console.log(response.data.drinks);
+      // console.log(response.data.drinks);
       setListCocktails(response.data.drinks);
     }
     fetchData();

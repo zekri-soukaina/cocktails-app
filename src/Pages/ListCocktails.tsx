@@ -15,7 +15,7 @@ export default function ListCocktails() {
       const response = await axios.get(
         `https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list`
       );
-      console.log(response.data.drinks);
+      // console.log(response.data.drinks);
       setListCocktails(response.data.drinks);
     }
     fetchData();
@@ -39,7 +39,7 @@ export default function ListCocktails() {
             );
           })
         ) : (
-          <h1> &#129347; &#129346; &#127866; ... </h1>
+          <h1> loading... </h1>
         )}
       </ListGroup>
     </div>
