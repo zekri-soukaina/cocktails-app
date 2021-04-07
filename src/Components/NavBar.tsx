@@ -17,7 +17,7 @@ export default function NavBar() {
       <Nav
         fill
         variant="tabs"
-        defaultActiveKey="/"
+        // defaultActiveKey="/"
         style={{ background: "pink" }}>
         <Navbar.Brand href="/" style={{ marginLeft: "20px" }}>
           {" "}
