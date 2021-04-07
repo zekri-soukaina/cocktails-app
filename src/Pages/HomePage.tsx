@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <div>
       <NavBar />
-      <Carousel style={{ marginTop: "50px" }}>
+      <Carousel style={{ marginTop: "10px" }}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -36,7 +36,7 @@ export default function HomePage() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 "
             src="https://www.dmarge.com/wp-content/uploads/2020/07/margarita-cocktail.jpg"
             alt="Second slide"
           />
