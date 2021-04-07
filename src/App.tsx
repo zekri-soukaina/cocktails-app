@@ -12,12 +12,12 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/alcoholic" component={Alcoholic} />
-        <Route path="/noalcoholic" component={NoAlcoholic} />
         <Route path="/list/:searchText+" component={ListCategories} />
-        <Route path="/list" component={ListCocktails} />
         <Route path="/cocktail_info/:idDrink" component={MenuPage} />
         <Route path="/category/:searchText?" component={SearchPage} />
+        <Route path="/list" component={ListCocktails} />
+        <Route path="/alcoholic" component={Alcoholic} />
+        <Route path="/noalcoholic" component={NoAlcoholic} />
         <Route path="/" component={HomePage} />
       </Switch>
     </Router>
