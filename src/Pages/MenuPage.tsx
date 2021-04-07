@@ -127,7 +127,7 @@ export default function MenuPage() {
           </ListGroup>
 
           <Card.Body>
-            <Card.Title>Ingredient</Card.Title>
+            <Card.Title>Ingredient({infoCocktail[0].strGlass})</Card.Title>
           </Card.Body>
 
           <ListGroup className="list-group-flush">
